@@ -519,16 +519,17 @@ h3{
 }
 
 .ps,.id,.xd,.ai{
-	width: 80%;
+	width: 90%;
 	padding: 6%;
 }
+
 
 
 .inforcard{
 	height: 440px;
 	padding: 6% 6% 0 6%;
 	border-radius: 20px;
-	width: 80%;
+	width: 90%;
 	background-color: white;
 	clear: both;
 
@@ -544,14 +545,14 @@ h3{
 .skill_card{
 	height: auto;
 	padding: 6%;
-	width: 80%;
+	width: 90%;
 }
 
 .readme_card{
 
 	height: auto;
 	padding: 6%;
-	width: 80%;
+	width: 90%;
 }
 
 
