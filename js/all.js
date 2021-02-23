@@ -92,10 +92,4 @@ $(document).ready(function() {
 
 	});
 
-
-
-
-
-
-
 });

@@ -1,8 +1,7 @@
 .warpper{
 	font-family: 微軟正黑體,Helvetica,Arial,Verdana;
 	margin: 0 auto;
-	height: auto;
-	padding: 0 0 10% 0;
+	padding: 0 0 15% 0;
 	background-color: #cccc;
 	position: relative;
 }
@@ -11,10 +10,6 @@
 	margin: 0 0 80px 0;
 	height: 50px;
 	background-color: black;
-
-}
-
-.menu_btn{
 
 }
 
@@ -47,7 +42,7 @@
 
 
 h1{
-	font-size: 34px;
+	font-size: 28px;
 	font-weight: bolder;
 }
 
@@ -398,16 +393,18 @@ li a:hover{
 
 
 .exe_card{
-	padding: 2%;
+	padding: 2% 2% 3% 2%;
 	border: 1px solid #8D4E4E;
 	border-radius: 0 0  10px 10px;
 }
+
+
 
 @media(max-width: 1000px){
 
 
 .warpper{
-	padding: 0 0 20% 0; 
+	padding: 0 0 30% 0;
 }
 
 
@@ -506,7 +503,6 @@ h3{
 
 
 .warpper{
-	padding: 0 0 25% 0; 
 }
 
 .photo{
