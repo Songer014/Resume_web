@@ -9,13 +9,22 @@
 
 .menu{
 	width: 100%;
+	box-shadow: 0px 4px 12px 0 rgba(0, 0, 0, 0.2);
 	z-index: 40;
 	position: fixed;
 	top: 0;
 	margin: 0 0 0 0;
 	height: 60px;
-	background-color: black;
+	background-color: #8D4E4E;
 
+}
+
+.menu_text{
+	font-weight: 500;
+	text-align: center;
+	font-size: 22px;
+	line-height: 60px;
+	color: white;
 }
 
 
@@ -65,28 +74,20 @@
 
 
 h1{
-	font-size: 34px;
+	font-size: 30px;
 	font-weight: bolder;
 }
 
 
 
 h2{
-	font-size:32px;
+	font-size:28px;
 	margin: 0 0 16px 0;
 	font-weight: bolder;
 	display: inline-block;
 }
 
 
-h3{
-	margin: 3% 0 0 0;
-	padding: 2% 0 2% 2%;
-	background-color: #A85E5E;
-	border-radius: 10px 10px 0 0;
-	color: white;
-	font-size: 24px;
-}
 
 
 
@@ -182,7 +183,7 @@ p{
 	border-radius: 40px;
 	background-color: black;
 	width: 200px;
-	height: 52px;
+	height: 48px;
 
 }
 
@@ -192,7 +193,7 @@ p{
 	border-radius: 40px;
 	background-color: #8D4E4E;
 	width: 200px;
-	height: 52px;
+	height: 48px;
 
 }
 
@@ -201,9 +202,9 @@ p{
 	letter-spacing: 1px;
 	display: block;
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 	color: white;
-	line-height: 52px;
+	line-height: 48px;
 	text-decoration: none;
 }
 
@@ -219,9 +220,9 @@ p{
 	letter-spacing: 1px;
 	display: block;
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 	color: white;
-	line-height: 52px;
+	line-height: 48px;
 	text-decoration: none;
 }
 
@@ -351,6 +352,7 @@ li a:hover{
 
 
 .text_btn{
+	position:relative;
 	margin: 20px 0 0 0;
 	text-align: center;
 	font-weight: bolder;
@@ -360,10 +362,26 @@ li a:hover{
 	cursor: pointer;
 }
 
+.text_btn>img{
+	position: absolute;
+	top: -6px;
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+}
+
+.text_btn2>img{
+	position: absolute;
+	top: -6px;
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+}
 
 
 
 .text_btn2{
+	position:relative;
 	margin: 20px 0 0 0;
 	text-align: center;
 	font-weight: bolder;
@@ -374,10 +392,23 @@ li a:hover{
 }
 
 
+h3{	max-width: 300px;
+	text-align: center;
+	margin: 2% auto 4% auto;
+	padding: 2%;
+	background-color: #A85E5E;
+	border-radius: 30px;
+	color: white;
+	line-height: 24px;
+	font-size: 24px;
+}
+
+
 .exe_card{
-	padding: 2% 2% 3% 2%;
-	border: 1px solid #8D4E4E;
-	border-radius: 0 0  10px 10px;
+	background-color: #f5f5f5;
+	margin: 6% 0 0 0;
+	padding: 3% 4% 6% 4%;
+	border-radius: 16px;
 }
 
 .information_btn{
@@ -431,13 +462,8 @@ h2{
 
 
 
-h3{
-	text-align: center;
-	margin: 6% 0 0 0;
-	padding: 2% 0 2% 2%;
-	background-color: #A85E5E;
-	border-radius: 10px 10px 0 0;
-	color: white;
+h3{	max-width: 240px;
+	padding: 3%;
 	font-size: 20px;
 }
 
@@ -563,9 +589,7 @@ li a:hover{
 
 
 .exe_card{
-	padding: 2% 4% 3% 4%;
-	border: 1px solid #8D4E4E;
-	border-radius: 0 0  10px 10px;
+	padding: 4% 4% 6% 4%;
 }
 
 p{
@@ -573,7 +597,7 @@ p{
 }
 
 .target{
-	margin: 0 0 0 2%;
+	margin: 0 0 0 1%;
 	border-radius: 4px;
 	white-space:nowrap;
 	text-align: center;
@@ -591,6 +615,9 @@ p{
 
 @media (min-width: 480px) and (max-width: 768px){
 
+.menu_text{
+	font-size: 24px;
+}
 
 .warpper{
 		padding: 14% 0 40% 0;
